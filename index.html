@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js hmw 8</title>
+    <link  href="style.css"  rel="stylesheet"/>
+
+</head>
+<body>
+    <div class="container">
+        <form onsubmit="return gamotvla()" id="form">
+
+            <input class="inputs" type="text" placeholder="რიცხვი 1" id="number1">
+            <input class="inputs" type="text" placeholder="რიცხვი 2" id="number2">
+            <input class="inputs-1" type="submit" value="გამოთვლა">
+        
+            <div id="resultbox">
+                <p id="result1"></p>
+                <p id="result2"></p>
+                <p id="result3"></p>
+                <p id="result4"></p>
+            </div>
+        
+        </form>
+
+        <div class="box">
+            <div class="box-1">
+                <form action="">
+                    <input class="inputs" type="text" placeholder=" რიცხვი1" id="num1">
+                    <input class="inputs" type="text" placeholder="რიცხვი2" id="num2">
+                    
+                </form>
+                <select id="operators">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+                <br/>
+                <input class="inputs-2" type="text" id="result">
+            </div>
+            <button class="inputs-3" type="button" onclick="calculate()">გამოთვლა</button>
+
+        </div>
+        
+    </div>
+
+    <script src="./js.hmw-8.js"></script>
+</body>
+</html>

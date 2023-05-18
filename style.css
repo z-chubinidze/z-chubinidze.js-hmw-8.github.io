@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: darkslateblue;
+    background-image: url(math.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.inputs {
+    width: 200px;
+    padding:10px 20px;
+    outline:0;
+    border:0;
+    background-color: grey;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white;
+}
+::placeholder{
+    color: beige;
+}
+#form{
+    
+    background-color: rgb(214, 37, 37);
+    margin-bottom: 40px;
+    padding:  20px;
+    border-radius: 10px;
+}
+.container{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(10, 15, 5);
+    
+}
+#resultbox{
+   
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.inputs-1{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: green;
+    border: 0;
+}
+.inputs-3{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: green;
+    border: 0;
+    height: 159px;
+}
+.box{
+    padding:  20px;
+    border-radius: 10px;
+    background-color: rgb(30, 53, 180);
+    display: flex;
+    align-items: center;
+    gap:12px;
+}
+.box-1{
+
+}
+.inputs-2{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: black;
+    color:white;
+    border:0;
+    outline:0;
+    width: 100%;
+}
+#operators{
+    width: 200px;
+    font-size: 28px;
+    margin-bottom: 20px;
+    background-color: aqua;
+    margin-left: 27%;
+}
+option{
+    font-size: 32px;
+    text-align: center;
+}
